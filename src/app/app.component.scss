@@ -1,0 +1,42 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#questionContainer{
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: solid 1px #ccc;
+}
+.section {
+  margin-bottom: 30px;
+}
+
+.action-button {
+  margin-top: 10px;
+}
+
+.rendered-question {
+  margin-top: 10px;
+}
+
+.result {
+  margin: 5px 0;
+}
+
+input.correct {
+  border: 2px solid green;
+}
+
+input.incorrect {
+  border: 2px solid red;
+}
+
+
+.debug {
+  font-size: 14px;
+}
+
