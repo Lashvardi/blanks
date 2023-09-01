@@ -33,7 +33,6 @@ export class AppComponent {
     const selection = window.getSelection();
     if (!selection || !selection.rangeCount) return;
 
-    const range = selection.getRangeAt(0);
     const index = this.data.blanks.length; // new index based on existing blanks
 
     const inputElement = document.createElement('input');
